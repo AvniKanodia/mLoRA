@@ -74,7 +74,7 @@ LlamaSequentialModuleIO = Tuple[
 ]
 LEN_LLAMA_SEQUENTIAL_MODULE_IO = 4
 
-LlamaCompatibleModelTypes = ["mistral", "qwen2", "llama"]
+LlamaCompatibleModelTypes = ["mistral", "qwen2", "qwen", "llama"]
 
 
 class LlamaSequentialWrapper(torch.nn.Module):
